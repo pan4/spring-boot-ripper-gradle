@@ -13,6 +13,7 @@ import javax.swing.*;
 public class OnProductionCondition implements Condition {
   @Override
   public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
-    return JOptionPane.showConfirmDialog(null, "это продакшен?") == 0;
+//    return JOptionPane.showConfirmDialog(null, "это продакшен?") == 0;
+    return true;
   }
 }

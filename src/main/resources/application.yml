@@ -10,3 +10,7 @@ ironbank:
   куда-лететь: браавос, главный банк
   вкл: true
 
+
+server:
+  ssl:
+    enabled: false
